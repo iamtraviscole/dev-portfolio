@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 25px 50px 0 50px;
+
+  .logo {
+    font-size: 24px;
+  }
+
+  a {
+    color: var(--color-text-500);
+
+    &:hover {
+      color: var(--color-text-200);
+    }
+  }
+
+  > ul {
+    font-size: 14px;
+
+    > li {
+      display: inline;
+      padding-right: 40px;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  } 
+}
