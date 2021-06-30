@@ -1,0 +1,80 @@
+:root {
+
+  // colors
+  --color-primary-500: #7243F9;
+  --color-header-500: #000;
+  --color-text-500: #000;
+  --color-bg-500: #fff;
+
+  // fonts
+  --font-body: 'IBM Plex Mono', monospace;
+  --font-header: 'Poppins', sans-serif;
+  --font-header-b: 'IBM Plex Mono', monospace;
+  
+}
+
+html {
+
+  body {
+    font-size: 16px;
+    font-family: var(--font-body);
+    color: var(--color-text-500);
+    background-color: var(--color-bg-500);
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: var(--font-header);
+    color: var(--color-text-500);
+    font-weight: 700;
+  }
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-header-b);
+    color: var(--color-text-500);
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 38px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+
+}
+
+html.dark {
+  
+  // colors
+  --color-primary-500: #7243F9;
+  --color-header-500: #fff;
+  --color-text-500: #fff;
+  --color-bg-500: #222;
+
+}
+
+
+
+
