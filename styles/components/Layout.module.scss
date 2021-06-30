@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'header'
+    'content'
+    'footer';
+  min-height: 100vh;
+
+  > header {
+    background-color: lightblue;
+    grid-area: header;
+  }
+
+  > main {
+    background-color: lightcoral;
+    grid-area: content;
+  }
+
+  > footer {
+    background-color: lightgreen;
+    grid-area: footer;
+  }
+}
