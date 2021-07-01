@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from './Nav'
+import Footer from './Footer'
 
 import styles from '../styles/components/Layout.module.scss'
 
@@ -14,7 +15,7 @@ export default function Layout({ children }) {
         {children}
       </main>
       <footer>
-        footer
+        <Footer />
       </footer>
     </div>
   )

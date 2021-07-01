@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px 25px 50px;
+
+  > ul {
+    font-size: 14px;
+
+    > li {
+      display: inline;
+      padding-right: 40px;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
