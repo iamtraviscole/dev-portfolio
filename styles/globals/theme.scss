@@ -2,12 +2,23 @@
 
   // colors
   --color-primary-500: #7243F9;
+
   --color-header-500: #000;
+
+  --color-text-100: #ccc;
+  --color-text-200: #999;
+  --color-text-300: #666;
+  --color-text-400: #333;
   --color-text-500: #000;
+
+  --color-link-200: #a7caf7;
+  --color-link-500: #237bec;
+
   --color-bg-500: #fff;
 
   // fonts
   --font-body: 'IBM Plex Mono', monospace;
+
   --font-header: 'Poppins', sans-serif;
   --font-header-b: 'IBM Plex Mono', monospace;
   
@@ -61,6 +72,15 @@ html {
   
   p {
     line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--color-link-500);
+
+    &:hover {
+      color: var(--color-link-200);
+    }
   }
 
 }
