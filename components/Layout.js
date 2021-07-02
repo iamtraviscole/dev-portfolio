@@ -4,26 +4,24 @@ import Head from 'next/head'
 import Nav from './Nav'
 import Footer from './Footer'
 
-import styles from '../styles/components/Layout.module.scss'
-
 export default function Layout(props) {
   return (
     <> 
     <Head>
       <title>{props.title || 'Travis Cole - Web Development'}</title>
-      <meta name="description" content={props.description} />
-      <link rel="icon" href="/favicon.ico" />
+      <meta name='description' content={props.description} />
+      <link rel='icon' href='/favicon.ico' />
     </Head>
-    <div className={styles.grid}>
-      <header>
+    <div className='Layout'>
+      <header className='Layout__header'>
         <Nav />
       </header>
-      <main>
-        <div className={styles.container}>
+      <main className='Layout__main'>
+        <div className='Layout__main-ctr'>
           {props.children}
         </div>
       </main>
-      <footer>
+      <footer className='Layout__footer'>
         <Footer />
       </footer>
     </div>
