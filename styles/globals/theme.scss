@@ -1,27 +1,33 @@
 :root {
 
-  // colors
-  --color-primary-500: #7243F9;
+  // COLORS
+  --color-a: #7243f9;
+  --color-a-tint: #b9a1fc;
+  --color-a-shade: #39227d;
 
-  --color-header-500: #000;
+  --color-heading-a: #000;
+  --color-heading-b: #fff;
 
-  --color-text-100: #ccc;
-  --color-text-200: #999;
-  --color-text-300: #666;
-  --color-text-400: #333;
-  --color-text-500: #000;
+  --color-text-a: #000;
 
-  --color-link-200: #a7caf7;
-  --color-link-500: #237bec;
+  --color-nav-a: #000;
+  --color-nav-a-hover: #808080;
 
-  --color-bg-500: #fff;
+  --color-link-a: #237bec;
+  --color-link-a-hover: #91bdf6;
 
-  // fonts
+  --color-bg-a: #fff;
+  --color-bg-b: #000;
+
+  --color-border-a: #000;
+
+
+  // FONTS
   --font-body: 'IBM Plex Mono', monospace;
 
-  --font-header: 'Poppins', sans-serif;
-  --font-header-b: 'IBM Plex Mono', monospace;
-  
+  --font-heading-a: 'Poppins', sans-serif;
+  --font-heading-b: 'IBM Plex Mono', monospace;
+
 }
 
 html {
@@ -29,14 +35,14 @@ html {
   body {
     font-size: 16px;
     font-family: var(--font-body);
-    color: var(--color-text-500);
-    background-color: var(--color-bg-500);
+    color: var(--color-text-a);
+    background-color: var(--color-bg-a);
   }
   
   h1 {
-    font-size: 48px;
-    font-family: var(--font-header);
-    color: var(--color-text-500);
+    font-size: 38px;
+    font-family: var(--font-heading-a);
+    color: var(--color-text-a);
     font-weight: 700;
   }
   
@@ -45,29 +51,29 @@ html {
   h4,
   h5,
   h6 {
-    font-family: var(--font-header-b);
-    color: var(--color-text-500);
+    font-family: var(--font-heading-b);
+    color: var(--color-text-a);
     font-weight: 700;
   }
   
   h2 {
-    font-size: 38px;
+    font-size: 28px;
   }
   
   h3 {
-    font-size: 30px;
+    font-size: 20px;
   }
   
   h4 {
-    font-size: 24px;
+    font-size: 14px;
   }
 
   h5 {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   h6 {
-    font-size: 18px;
+    font-size: 10px;
   }
   
   p {
@@ -76,22 +82,12 @@ html {
 
   a {
     text-decoration: none;
-    color: var(--color-link-500);
+    color: var(--color-link-a);
 
     &:hover {
-      color: var(--color-link-200);
+      color: var(--color-link-a-hover);
     }
   }
-
-}
-
-html.dark {
-  
-  // colors
-  --color-primary-500: #7243F9;
-  --color-header-500: #fff;
-  --color-text-500: #fff;
-  --color-bg-500: #222;
 
 }
 
