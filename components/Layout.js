@@ -8,7 +8,7 @@ export default function Layout(props) {
   return (
     <> 
     <Head>
-      <title>{props.title || 'Travis Cole - Web Development'}</title>
+      <title>{props.title ? `${props.title} | Travis Cole` : 'Travis Cole'}</title>
       <meta name='description' content={props.description} />
       <link rel='icon' href='/favicon.ico' />
     </Head>
