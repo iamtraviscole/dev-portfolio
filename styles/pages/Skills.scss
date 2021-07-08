@@ -1,46 +1,10 @@
 .Skills {
 
-  &__header {
-    position: relative;
-    padding: 30px;
-    background-color: var(--color-bg-b);
-    border: 5px solid var(--color-border-a);
-    border-bottom: none;
-    
-    &-particle {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      width: 5px;
-      height: 5px;
-      background-color: var(--color-a);
-    }
-    
-    &-heading {
-      display: inline-flex;
-      align-items: center;
-      background-color: var(--color-bg-a);
-      padding: 5px 10px;
-     
-      > h1 {
-        padding-right: 5px;
-      }
-
-      > span {
-
-        > svg {
-          width: 50px;
-          height: 50px;
-          fill: var(--color-a);
-        }
-      }
-    }
-  }
-
   &__skills {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid var(--color-border-a);
+    border-top: none;
 
     &-section {
       flex-basis: 50%;

@@ -1,0 +1,33 @@
+.PageHeader {
+  
+  &__header {
+    position: relative;
+    padding: 30px;
+    background-color: var(--color-bg-b);
+    
+    &-particle {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      width: 5px;
+      height: 5px;
+      background-color: var(--color-a);
+    }
+    
+    &-heading {
+      display: inline-flex;
+      align-items: center;
+      background-color: var(--color-bg-a);
+      padding: 6px 10px;
+
+      > span {
+
+        > svg {
+          height: 42px;
+          fill: var(--color-a);
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+}

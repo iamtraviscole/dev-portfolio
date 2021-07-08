@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/Layout'
+import PageHeader from '../components/PageHeader'
 
 import CodeIcon from '../public/icons/window_code.svg'
 
@@ -10,14 +11,8 @@ export default function Skills() {
       title='Skills'
       description=''
     >
-      <div className='Skills'>
-        <div className='Skills__header'>
-          <span className='Skills__header-particle'></span>
-          <div className='Skills__header-heading'>
-            <h1>Skills</h1>
-            <span><CodeIcon /></span>
-          </div>
-        </div>
+       <div className='Skills'>
+        <PageHeader heading='Skills' icon={CodeIcon} />
         <div className='Skills__skills'>
           <section className='Skills__skills-section'>
               <div className='Skills__skills-section-heading'>

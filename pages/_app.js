@@ -4,8 +4,9 @@ import '../styles/globals/theme.scss'
 import '../styles/pages/Index.scss'
 import '../styles/pages/Skills.scss'
 
-import '../styles/components/Layout.scss'
 import '../styles/components/Nav.scss'
+import '../styles/components/PageHeader.scss'
+import '../styles/components/Layout.scss'
 import '../styles/components/Footer.scss'
 
 function MyApp({ Component, pageProps }) {
