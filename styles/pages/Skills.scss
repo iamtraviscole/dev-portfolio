@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     border: 2px solid var(--color-border-a);
-    border-top: none;
+    margin-top: -4px; // to hide combined 4px top border
 
     &-section {
       flex-basis: 50%;
