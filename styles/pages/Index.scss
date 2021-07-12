@@ -1,10 +1,70 @@
 .Index {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 
+  &__print-marks-x {
+
+      &-mark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 1px;
+        background: var(--color-bg-b);
+
+        &:nth-child(2) {
+          left: auto;
+          right: 0;
+        }
+
+        &:nth-child(3) {
+          top: auto;
+          left: auto;
+          right: 0;
+          bottom: 0;
+        }
+
+        &:nth-child(4) {
+          top: auto;
+          bottom: 0;
+        }
+      }
+    }
+
+    &__print-marks-y {
+
+      &-mark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1px;
+        height: 20px;
+        background: var(--color-bg-b);
+
+        &:nth-child(2) {
+          left: auto;
+          right: 0;
+        }
+
+        &:nth-child(3) {
+          top: auto;
+          left: auto;
+          bottom: 0;
+          right: 0;
+        }
+
+        &:nth-child(4) {
+          top: auto;
+          bottom: 0;
+        }
+      }
+    }
+
   &__intro {
+    position: relative;
     margin: 0 auto;
     max-width: 500px;
     text-align: center;
@@ -16,18 +76,16 @@
 
       .Index__intro-highlight {
         position: relative;
-        
+        color: var(--color-heading-b);
+
         &::before {
-          position: absolute;
-          bottom: 35%;
-          left: -10%;
           content: '';
+          position: absolute;
+          left: -2%;
+          top: 14%;
           background: var(--color-a);
-          opacity: .25;
-          width: 112%;
-          height: 30%;
-          border-radius: 5px / 3px 15px;
-          transform: rotate(-2deg);
+          width: 104%;
+          height: 72%;
           z-index: -1000;
         }
       }
@@ -62,6 +120,7 @@
         > svg {
           height: 15px;
           margin-right: 5px;
+          fill: var(--color-a);
         }
       }
     }

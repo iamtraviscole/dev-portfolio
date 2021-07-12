@@ -2,7 +2,6 @@ import React from 'react'
 
 import Layout from '../components/Layout'
 
-import SmileIcon from '../public/icons/smile.svg'
 import JavaScriptIcon from '../public/icons/javascript.svg'
 import ReactIcon from '../public/icons/react.svg'
 import HTML5Icon from '../public/icons/html5.svg'
@@ -15,10 +14,21 @@ export default function Index() {
       description=''
     >
       <div className='Index'>
+      <div className='Index__print-marks-x'>
+            <div className='Index__print-marks-x-mark'></div>
+            <div className='Index__print-marks-x-mark'></div>
+            <div className='Index__print-marks-x-mark'></div>
+            <div className='Index__print-marks-x-mark'></div>
+          </div>
+          <div className='Index__print-marks-y'>
+            <div className='Index__print-marks-y-mark'></div>
+            <div className='Index__print-marks-y-mark'></div>
+            <div className='Index__print-marks-y-mark'></div>
+            <div className='Index__print-marks-y-mark'></div>
+          </div>
         <div className='Index__intro'>
           <h1>
-            <span className='Index__intro-highlight'>Front end</span> focused full stack developer and designer.
-            <span className='Index__intro-icon'><SmileIcon /></span>
+            <span className='Index__intro-highlight'>Front end</span> focused full stack developer and designer
           </h1>
         </div>
         <div className='Index__skills'>
