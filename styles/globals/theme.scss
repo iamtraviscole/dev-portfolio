@@ -9,6 +9,7 @@
   --color-heading-b: #fff;
 
   --color-text-a: #000;
+  --color-text-b: #fff;
 
   --color-nav-a: #000;
   --color-nav-a-hover: #808080;
@@ -23,7 +24,7 @@
 
 
   // FONTS
-  --font-body: 'IBM Plex Mono', monospace;
+  --font-body-a: 'IBM Plex Mono', monospace;
 
   --font-heading-a: 'Poppins', sans-serif;
   --font-heading-b: 'IBM Plex Mono', monospace;
@@ -38,7 +39,8 @@ html {
 
   body {
     font-size: 16px;
-    font-family: var(--font-body);
+    font-family: var(--font-body-a);
+    font-weight: 400;
     color: var(--color-text-a);
     background-color: var(--color-bg-a);
   }
