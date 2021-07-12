@@ -16,8 +16,7 @@ export default function Skills() {
         <div className='Skills__skills'>
           <section className='Skills__skills-section'>
               <div className='Skills__skills-section-heading'>
-                <span>01.</span>
-                <h2 className='green'>Front End</h2>
+                <h2><span>01</span>Front End</h2>
               </div>
               <h3>Languages</h3>
               <ul>
@@ -42,8 +41,7 @@ export default function Skills() {
           </section>
           <section className='Skills__skills-section'>
               <div className='Skills__skills-section-heading'>
-                <span>02.</span>
-                <h2>Back End</h2>
+                <h2><span>02</span>Back End</h2>
               </div>
               <h3>Languages</h3>
               <ul>
@@ -67,8 +65,7 @@ export default function Skills() {
           </section>
           <section className='Skills__skills-section'>
               <div className='Skills__skills-section-heading'>
-                <span>03.</span>
-                <h2>Design</h2>
+                <h2><span>03</span>Design</h2>
               </div>
               <h3>Disciplines</h3>
               <ul>
@@ -86,8 +83,7 @@ export default function Skills() {
           </section>
           <section className='Skills__skills-section'>
               <div className='Skills__skills-section-heading'>
-                <span>04.</span>
-                <h2>Other</h2>
+                <h2><span>04</span>Other</h2>
               </div>
               <h3>Version Control</h3>
               <ul>
