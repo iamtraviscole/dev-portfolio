@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 25px 50px 0 50px;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 25px;
 
   &__logo {
     font-size: 24px;
