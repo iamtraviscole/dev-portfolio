@@ -14,22 +14,15 @@ export default function Index() {
       description=''
     >
       <div className='Index'>
-      <div className='Index__print-marks-x'>
-            <div className='Index__print-marks-x-mark'></div>
-            <div className='Index__print-marks-x-mark'></div>
-            <div className='Index__print-marks-x-mark'></div>
-            <div className='Index__print-marks-x-mark'></div>
-          </div>
-          <div className='Index__print-marks-y'>
-            <div className='Index__print-marks-y-mark'></div>
-            <div className='Index__print-marks-y-mark'></div>
-            <div className='Index__print-marks-y-mark'></div>
-            <div className='Index__print-marks-y-mark'></div>
-          </div>
+        <div className='Index__corners'>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
         <div className='Index__intro'>
-          <h1>
-            <span className='Index__intro-highlight'>Front end</span> focused full stack developer and designer
-          </h1>
+          <div className='Index__intro-accent'>[35.7596&deg;]</div>
+          <h1><span className='Index__intro-highlight'>Front end</span> focused full stack developer and designer</h1>
         </div>
         <div className='Index__skills'>
           <ul>

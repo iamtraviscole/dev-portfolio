@@ -5,73 +5,62 @@
   justify-content: center;
   height: 100%;
 
-  &__print-marks-x {
+  &__corners {
 
-      &-mark {
-        position: absolute;
+    > div {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border: 1px solid var(--color-border-a);
+
+      &:nth-child(1) {
         top: 0;
         left: 0;
-        width: 20px;
-        height: 1px;
-        background: var(--color-bg-b);
-
-        &:nth-child(2) {
-          left: auto;
-          right: 0;
-        }
-
-        &:nth-child(3) {
-          top: auto;
-          left: auto;
-          right: 0;
-          bottom: 0;
-        }
-
-        &:nth-child(4) {
-          top: auto;
-          bottom: 0;
-        }
+        border-right: none;
+        border-bottom: none;
       }
-    }
 
-    &__print-marks-y {
-
-      &-mark {
-        position: absolute;
+      &:nth-child(2) {
         top: 0;
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+      }
+
+      &:nth-child(3) {
+        bottom: 0;
+        right: 0;
+        border-left: none;
+        border-top: none;
+      }
+
+      &:nth-child(4) {
+        bottom: 0;
         left: 0;
-        width: 1px;
-        height: 20px;
-        background: var(--color-bg-b);
-
-        &:nth-child(2) {
-          left: auto;
-          right: 0;
-        }
-
-        &:nth-child(3) {
-          top: auto;
-          left: auto;
-          bottom: 0;
-          right: 0;
-        }
-
-        &:nth-child(4) {
-          top: auto;
-          bottom: 0;
-        }
+        border-right: none;
+        border-top: none;
       }
     }
+  }
 
   &__intro {
     position: relative;
     margin: 0 auto;
     max-width: 500px;
     text-align: center;
+
+    &-accent {
+      position: absolute;
+      top: -2px;
+      left: 20px;
+      font-family: var(--font-b);
+      font-size: 13px;
+      z-index: -1000;
+    }
     
     > h1 {
       position: relative;
-      font-size: 48px;
+      font-size: 46px;
       line-height: 1.3;
 
       .Index__intro-highlight {
@@ -87,17 +76,6 @@
           width: 104%;
           height: 72%;
           z-index: -1000;
-        }
-      }
-
-      .Index__intro-icon {
-        position: absolute;
-        margin-left: 10px;
-        
-        > svg {
-          width: 55px;
-          height: 55px;
-          fill: var(--color-a);
         }
       }
     }
