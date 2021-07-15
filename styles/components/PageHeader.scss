@@ -7,18 +7,54 @@
     
     &-particle {
       position: absolute;
-      top: 15px;
+      top: 12px;
       right: 15px;
-      width: 5px;
-      height: 5px;
-      background-color: var(--color-a);
+      font-size: 14px;
     }
     
     &-heading {
+      position: relative;
       display: inline-flex;
       align-items: center;
-      background-color: var(--color-bg-a);
-      padding: 8px 10px 6px 10px;
+      padding: 14px 16px;
+
+      &-corners {
+
+        > div {
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          border: 1px solid var(--color-border-a);
+
+          &:nth-child(1) {
+            top: 0;
+            left: 0;
+            border-right: none;
+            border-bottom: none;
+          }
+
+          &:nth-child(2) {
+            top: 0;
+            right: 0;
+            border-left: none;
+            border-bottom: none;
+          }
+
+          &:nth-child(3) {
+            bottom: 0;
+            right: 0;
+            border-left: none;
+            border-top: none;
+          }
+
+          &:nth-child(4) {
+            bottom: 0;
+            left: 0;
+            border-right: none;
+            border-top: none;
+          }
+        }
+      }
 
       > span {
 
