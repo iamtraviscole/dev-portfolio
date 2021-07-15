@@ -24,7 +24,8 @@
 
 
   // FONTS
-  --font-body-a: 'IBM Plex Mono', monospace;
+  --font-a: 'IBM Plex Mono', monospace;
+  --font-b: 'Share Tech Mono', monospace;
 
   --font-heading-a: 'Poppins', sans-serif;
   --font-heading-b: 'IBM Plex Mono', monospace;
@@ -39,7 +40,7 @@ html {
 
   body {
     font-size: 16px;
-    font-family: var(--font-body-a);
+    font-family: var(--font-a);
     font-weight: 400;
     color: var(--color-text-a);
     background-color: var(--color-bg-a);
@@ -59,7 +60,7 @@ html {
   h6 {
     font-family: var(--font-heading-b);
     color: var(--color-text-a);
-    font-weight: 700;
+    font-weight: 600;
   }
   
   h2 {
@@ -96,4 +97,3 @@ html {
   }
 
 }
-
