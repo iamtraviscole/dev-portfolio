@@ -27,7 +27,19 @@
     color: var(--color-nav-a);
 
     &:hover {
+      position: relative;
       color: var(--color-nav-a-hover);
+
+      &:before {
+        content: '';
+        position: absolute;
+        height: 120%;
+        width: 120%;
+        top: -10%;
+        left: -10%;
+        background-color: var(--color-bg-b);
+        z-index: -1000;
+      }
     }
   }
 }
