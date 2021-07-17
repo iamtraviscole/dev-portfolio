@@ -12,7 +12,7 @@ export default function Skills() {
       description=''
     >
        <div className='Skills'>
-        <PageHeader heading='Skills' icon={CodeIcon} />
+        <PageHeader heading='Skills' icon={<CodeIcon />} />
         <div className='Skills__skills'>
           <section className='Skills__skills-section'>
               <div className='Skills__skills-section-heading'>

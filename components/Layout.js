@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import PropTypes from 'prop-types'
 
 import Nav from './Nav'
 import Footer from './Footer'
@@ -27,4 +28,9 @@ export default function Layout(props) {
     </div>
     </>
   )
+}
+
+Layout.propTypes = {
+  title: PropTypes.string,
+  descripton: PropTypes.string
 }

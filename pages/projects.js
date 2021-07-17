@@ -11,7 +11,7 @@ export default function Projects() {
       title='Projects'
       description=''
     >
-      <PageHeader heading='Projects' icon={FolderIcon} />
+      <PageHeader heading='Projects' icon={<FolderIcon />} />
     </Layout>
   )
 }

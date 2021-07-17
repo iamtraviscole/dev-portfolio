@@ -11,7 +11,7 @@ export default function About() {
       title='About'
       description=''
     >
-      <PageHeader heading='About' icon={UserIcon} />
+      <PageHeader heading='About' icon={<UserIcon />} />
       
     </Layout>
   )

@@ -12,7 +12,7 @@ export default function Contact() {
         title='Contact'
         description=''
       > 
-      <PageHeader heading='Contact' icon={MessageIcon} />
+      <PageHeader heading='Contact' icon={<MessageIcon />} />
 
       </Layout>
     </div>
