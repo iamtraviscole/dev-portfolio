@@ -51,10 +51,10 @@
 
     &-accent {
       position: absolute;
-      top: -2px;
+      top: -4px;
       left: 20px;
       font-family: var(--font-b);
-      font-size: 13px;
+      font-size: 15px;
       z-index: -1000;
     }
     
@@ -72,7 +72,7 @@
           position: absolute;
           left: -2%;
           top: 14%;
-          background: var(--color-a);
+          background-color: var(--color-a);
           width: 104%;
           height: 72%;
           z-index: -1000;
