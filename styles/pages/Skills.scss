@@ -3,16 +3,14 @@
   &__skills {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid var(--color-border-a);
-    border-top: none;
-    border-left: none;
+    border: solid var(--color-border-a);
+    border-width: 0 1px 1px 0;
     margin-top: -1px;
 
     &-section {
       flex-basis: 50%;
-      border: 1px solid var(--color-border-a);
-      border-right: none;
-      border-bottom: none;
+      border: solid var(--color-border-a);
+      border-width: 1px 0 0 1px;
       padding: 75px 50px 0 50px;
 
       &-heading {
@@ -21,9 +19,9 @@
 
         > div {
           position: absolute;
-          top: -10px;
+          top: -11px;
           left: -10px;
-          font-size: 13px;
+          font-size: 15px;
           font-family: var(--font-b);
           z-index: -1000;
         }
