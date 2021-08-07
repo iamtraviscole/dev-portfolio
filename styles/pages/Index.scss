@@ -49,15 +49,6 @@
     max-width: 500px;
     text-align: center;
 
-    &-accent {
-      position: absolute;
-      top: -4px;
-      left: 20px;
-      font-family: var(--font-b);
-      font-size: 15px;
-      z-index: -1000;
-    }
-    
     > h1 {
       position: relative;
       font-size: 46px;
@@ -76,6 +67,17 @@
           width: 104%;
           height: 72%;
           z-index: -1000;
+        }
+
+        &-accent {
+          position: absolute;
+          top: -2px;
+          left: -13px;
+          color: var(--color-text-a);
+          font-family: var(--font-b);
+          font-weight: 400;
+          font-size: 15px;
+          z-index: -1100;
         }
       }
     }
