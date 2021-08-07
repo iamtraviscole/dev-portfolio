@@ -3,6 +3,7 @@ import '../styles/globals/theme.scss'
 
 import '../styles/pages/Index.scss'
 import '../styles/pages/Skills.scss'
+import '../styles/pages/About.scss'
 
 import '../styles/components/Nav.scss'
 import '../styles/components/PageHeader.scss'
