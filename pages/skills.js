@@ -91,7 +91,8 @@ export default function Skills() {
               </div>
               <h3>Version Control</h3>
               <ul>
-                <li>Git (Github)</li>
+                <li>Git</li>
+                <li>Github</li>
               </ul>
               <h3>Package Managers</h3>
               <ul>
