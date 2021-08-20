@@ -1,13 +1,27 @@
 .Nav {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 95%;
   margin: 0 auto;
   padding-top: 25px;
 
   &__logo {
     font-size: 24px;
+
+    > a {
+
+      > svg {
+        height: 45px;
+        display: block;
+      }
+
+      &:hover {
+        > svg {
+          fill: var(--color-a);
+        }
+      }
+    }
   }
 
   &__links {
@@ -20,26 +34,26 @@
       &:last-child {
         padding-right: 0;
       }
-    }
-  } 
 
-  a {
-    color: var(--color-nav-a);
-
-    &:hover {
-      position: relative;
-      color: var(--color-nav-a-hover);
-
-      &:before {
-        content: '';
-        position: absolute;
-        height: 120%;
-        width: 120%;
-        top: -10%;
-        left: -10%;
-        background-color: var(--color-bg-b);
-        z-index: -1000;
+      > a {
+        color: var(--color-nav-a);
+    
+        &:hover {
+          position: relative;
+          color: var(--color-nav-a-hover);
+    
+          &:before {
+            content: '';
+            position: absolute;
+            height: 120%;
+            width: 120%;
+            top: -10%;
+            left: -10%;
+            background-color: var(--color-bg-b);
+            z-index: -1000;
+          }
+        }
       }
     }
-  }
+  } 
 }
