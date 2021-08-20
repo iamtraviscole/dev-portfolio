@@ -27,13 +27,13 @@ export default function About() {
             <p>
               Nevertheless, I kept up with web design; and in addition to graphic and logo work, I also built a bunch 
               of relatively simple, static websites for clients over the years. But I knew 
-              I was just scratching the surface with these static sites. I found myself increasingly wanting to be 
+              I was just scratching the surface with these static sites. I found myself progressively wanting to be 
               able to create complex, dynamic, interactive web apps — I wanted to be a developer. So I learned. I 
               now focus primarily on front end development with my favorite technologies being Javascript, React, HTML and CSS.
             </p>
           </div>
           <div className='About__bio-pic'>
-            <img className='About__bio-pic-img'>{ /*TODO: add picture */}</img>
+            <img>{ /*TODO: add picture */}</img>
             <span>[Fig. 1]</span>
           </div>
         </div>
