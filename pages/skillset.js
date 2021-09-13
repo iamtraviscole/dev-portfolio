@@ -5,17 +5,17 @@ import PageHeader from '../components/PageHeader'
 
 import CodeIcon from '../public/icons/window_code.svg'
 
-export default function Skills() {
+export default function Skillset() {
   return (
     <Layout
-      title='Skills'
+      title='Skillset'
       description=''
     >
-       <div className='Skills'>
-        <PageHeader heading='Skills' icon={<CodeIcon />} />
-        <div className='Skills__skills'>
-          <section className='Skills__skills-section'>
-              <div className='Skills__skills-section-heading'>
+       <div className='Skillset'>
+        <PageHeader heading='Skillset' icon={<CodeIcon />} />
+        <div className='Skillset__skills'>
+          <section className='Skillset__skills-section'>
+              <div className='Skillset__skills-section-heading'>
                 <div>[FE-01]</div>
                 <h2>Front End</h2>
               </div>
@@ -40,8 +40,8 @@ export default function Skills() {
                 <li>Axios</li>
               </ul>
           </section>
-          <section className='Skills__skills-section'>
-              <div className='Skills__skills-section-heading'>
+          <section className='Skillset__skills-section'>
+              <div className='Skillset__skills-section-heading'>
                 <div>[BE-02]</div>
                 <h2>Back End</h2>
               </div>
@@ -65,8 +65,8 @@ export default function Skills() {
                 <li>SQLite</li>
               </ul>
           </section>
-          <section className='Skills__skills-section'>
-              <div className='Skills__skills-section-heading'>
+          <section className='Skillset__skills-section'>
+              <div className='Skillset__skills-section-heading'>
                 <div>[D-03]</div>
                 <h2>Design</h2>
               </div>
@@ -84,8 +84,8 @@ export default function Skills() {
                 <li>Adobe Illustrator</li>
               </ul>
           </section>
-          <section className='Skills__skills-section'>
-              <div className='Skills__skills-section-heading'>
+          <section className='Skillset__skills-section'>
+              <div className='Skillset__skills-section-heading'>
                 <div>[O-04]</div>
                 <h2>Other</h2>
               </div>

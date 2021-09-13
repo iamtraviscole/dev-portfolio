@@ -2,7 +2,7 @@ import '../styles/globals/reset.scss'
 import '../styles/globals/theme.scss'
 
 import '../styles/pages/Index.scss'
-import '../styles/pages/Skills.scss'
+import '../styles/pages/Skillset.scss'
 import '../styles/pages/About.scss'
 
 import '../styles/components/Nav.scss'
