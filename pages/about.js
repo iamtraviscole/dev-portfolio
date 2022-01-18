@@ -22,14 +22,15 @@ export default function About() {
               I started experimenting with web design in the early 2000s when &lt;table&gt; based layouts were 
               popular. I learned HTML, CSS, and Photoshop and managed to piece together some decent websites. 
               But web technology was limited at the time and I found myself gravitating more towards the graphic 
-              side of the web design process, eventually becoming a graphic designer.
+              side of the web design process, eventually becoming a graphic and logo designer.
             </p>
             <p>
-              Nevertheless, I kept up with web design; and in addition to graphic and logo work, I also built a bunch 
-              of relatively simple, static websites for clients over the years. But I knew 
-              I was just scratching the surface with these static sites. I found myself progressively wanting to be 
-              able to create complex, dynamic, interactive web apps — I wanted to be a developer. So I learned. I 
-              now focus primarily on front end development with my favorite technologies being Javascript, React, HTML and CSS.
+              Nevertheless, I still kept up with web design and built a bunch 
+              of relatively simple websites for clients over the years. But, as web technology advanced, I always felt like 
+              I was only scratching the surface with these simple, mostly static websites. I wanted to be 
+              able to create complex, dynamic, interactive web apps — I wanted to be a developer. So I learned. I'm now well versed 
+              at all levels of the web development stack but focus primarily on the front end with my favorite technologies 
+              being Javascript, React, HTML and CSS.
             </p>
           </div>
           <div className='About__bio-pic'>
@@ -75,7 +76,6 @@ export default function About() {
             <h3>Sports</h3>
             <ul>
               <li>Hockey</li>
-              <li>Biking</li>
             </ul>
             <h3>Games</h3>
             <ul>
@@ -86,6 +86,7 @@ export default function About() {
             </ul>
             <h3>Other</h3>
             <ul>
+              <li>Biking</li>
               <li>Hiking</li>
               <li>Fitness</li>
               <li>Music</li>
