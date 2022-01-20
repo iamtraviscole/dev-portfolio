@@ -30,7 +30,7 @@ export default function About() {
               I was only scratching the surface with these simple, mostly static websites. I wanted to be 
               able to create complex, dynamic, interactive web apps — I wanted to be a developer. So I learned. I'm now well versed 
               at all levels of the web development stack but focus primarily on the front end with my favorite technologies 
-              being Javascript, React, HTML and CSS.
+              being Javascript, React, HTML and CSS / Sass.
             </p>
           </div>
           <div className='About__bio-pic'>
