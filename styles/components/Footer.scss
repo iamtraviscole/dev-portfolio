@@ -1,17 +1,38 @@
 .Footer {
   display: flex;
   justify-content: center;
-  padding: 0 50px 25px 50px;
+  align-items: center;
+  padding: 10px 2.5%;
 
   > ul {
-    font-size: 14px;
 
     > li {
+      color: var(--color-text-a-tint);
       display: inline;
-      padding-right: 40px;
+      padding-right: 22px;
+
+      &:first-child {
+        font-size: 12px;
+      }
 
       &:last-child {
         padding-right: 0;
+      }
+
+      > a {
+
+        > svg {
+          fill: var(--color-text-a-tint);
+          height: 20px;
+          vertical-align: middle;
+        }
+
+        &:hover {
+
+          > svg {
+            fill: var(--color-text-a);
+          }
+        }
       }
     }
   }
