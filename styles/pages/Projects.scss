@@ -20,7 +20,7 @@
       padding-bottom: 15px;
 
       > svg {
-        width: 250px;
+        max-width: 250px;
         fill: #205bd1;
       }
     }
@@ -91,5 +91,33 @@
     margin-left: 25px;
     border: 1px solid var(--color-border-a-tint);
   }
+}
 
+@media (max-width: 850px) {
+
+  .Projects {
+
+    &__project {
+      padding: 25px;
+    }
+
+    &__project-inner-ctr {
+      flex-direction: column;
+    }
+
+    &__project-details {
+      width: 100%;
+
+      &-links {
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+    }
+
+    &__project-ss {
+      width: 100%;
+      margin-top: 25px;
+      margin-left: 0;
+    }
+  }
 }

@@ -51,5 +51,23 @@
       }
     }
   }
+}
+
+@media (max-width: 800px) {
+
+  .Skillset {
+
+    &__skills {
+
+      &-section {
+        width: 100%;
+        padding: 25px;
+
+        &-heading {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
 
 }

@@ -4,10 +4,11 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  padding: 50px;
 
   &__corners {
 
-    > div {
+    &-corner {
       position: absolute;
       width: 20px;
       height: 20px;
@@ -101,6 +102,33 @@
           height: 15px;
           margin-right: 5px;
           fill: var(--color-a);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+  .Index {
+    padding: 50px 25px;
+    height: auto;
+
+    &__skills {
+      margin-top: 50px;
+
+      > ul {
+        align-items: center;
+        flex-wrap: wrap;
+
+        > li {
+          width: 50%;
+          padding-bottom: 25px;
+          justify-content: center;
+
+          &:last-child, &:nth-last-child(2) {
+            padding-bottom: 0;
+          }
         }
       }
     }

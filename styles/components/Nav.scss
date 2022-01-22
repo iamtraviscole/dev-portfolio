@@ -55,5 +55,17 @@
         }
       }
     }
-  } 
+  }
+}
+
+@media (max-width: 580px) {
+
+  .Nav {
+    flex-direction: column;
+
+    &__links {
+      margin-top: 25px;
+    }
+  }
+
 }
