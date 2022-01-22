@@ -15,10 +15,10 @@ export default function Index() {
     >
       <div className='Index'>
         <div className='Index__corners'>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className='Index__corners-corner'></div>
+          <div className='Index__corners-corner'></div>
+          <div className='Index__corners-corner'></div>
+          <div className='Index__corners-corner'></div>
         </div>
         <div className='Index__intro'>
           <h1>
