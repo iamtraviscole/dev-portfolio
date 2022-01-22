@@ -1,39 +1,52 @@
 .Footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px 2.5%;
 
-  > ul {
+  &__socials {
 
-    > li {
-      color: var(--color-text-a-tint);
-      display: inline;
-      padding-right: 22px;
+    > ul {
 
-      &:first-child {
-        font-size: 12px;
-      }
-
-      &:last-child {
-        padding-right: 0;
-      }
-
-      > a {
-
-        > svg {
-          fill: var(--color-text-a-tint);
-          height: 20px;
-          vertical-align: middle;
+      > li {
+        color: var(--color-text-a-tint);
+        display: inline;
+        padding-right: 22px;
+  
+        &:first-child {
+          font-size: 12px;
         }
-
-        &:hover {
-
+  
+        &:last-child {
+          padding-right: 0;
+        }
+  
+        > a {
+  
           > svg {
-            fill: var(--color-text-a);
+            fill: var(--color-text-a-tint);
+            height: 22px;
+            vertical-align: middle;
+          }
+  
+          &:hover {
+  
+            > svg {
+              fill: var(--color-text-a);
+            }
           }
         }
       }
     }
-  }
+  } 
+
+  &__copyright {
+    margin-top: 10px;
+
+    > p {
+      font-size: 11px;
+      color: var(--color-text-a-tint);
+    }
+  } 
 }
