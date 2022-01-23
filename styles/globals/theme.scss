@@ -14,6 +14,8 @@
 
   --color-nav-a: #000;
   --color-nav-a-hover: #fff;
+  --color-nav-b: #fff;
+  --color-nav-b-hover: #000;
 
   --color-link-a: #237bec;
   --color-link-a-hover: #91bdf6;
@@ -96,6 +98,13 @@ html {
     &:hover {
       color: var(--color-link-a-hover);
     }
+  }
+
+  button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
   }
 
 }
