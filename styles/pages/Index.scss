@@ -114,6 +114,13 @@
     padding: 50px 25px;
     height: auto;
 
+    &__intro {
+
+      > h1 {
+        font-size: 40px;
+      }
+    }
+
     &__skills {
       margin-top: 50px;
 

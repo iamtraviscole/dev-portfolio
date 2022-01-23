@@ -67,3 +67,24 @@
     }
   }
 }
+
+@media (max-width: 370px) {
+
+  .PageHeader {
+
+    &__header {
+
+      &-particle {
+        display: none;
+      }
+
+      &-heading {
+        padding: 0;
+
+        &-corners {
+          display: none;
+        }
+      }
+    }
+  }
+}
