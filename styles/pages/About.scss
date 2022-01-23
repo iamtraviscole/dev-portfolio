@@ -103,7 +103,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
 
   .About {
 
@@ -113,15 +113,22 @@
       &-text {
         border-right: 0;
         border-bottom: 1px solid var(--color-border-a);
+        padding: 25px;
       }
   
       &-pic {
-        padding: 50px;
   
         > span {
-          top: 241px;
-          left: 41px;
+          top: 218px;
+          left: 136px;
         }
+      }
+    }
+
+    &__details {
+
+      &-section {
+        padding: 25px;
       }
     }
 
