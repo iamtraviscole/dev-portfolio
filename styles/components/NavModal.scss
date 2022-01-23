@@ -1,0 +1,77 @@
+.NavModal {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: var(--color-bg-a);
+  animation: slide .35s forwards;
+  overflow-y: auto;
+
+  &__close {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    cursor: pointer;
+
+    > svg {
+      height: 25px;
+      fill: var(--color-nav-a);
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    margin: 95px 25px 0 25px;
+    padding: 25px;
+    background-color: var(--color-bg-b);
+
+    &-link {
+      font-size: 24px;
+      margin-bottom: 25px;
+      z-index: 100;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      > a {
+        color: var(--color-nav-b);
+
+        > svg {
+          position: relative;
+          top: 3px;
+          height: 24px;
+          padding-left: 10px;
+          fill: var(--color-nav-b);
+        }
+
+        &:hover {
+          position: relative;
+          color: var(--color-nav-b-hover);
+
+          > svg {
+            fill: var(--color-nav-b-hover);
+          }
+    
+          &:before {
+            content: '';
+            position: absolute;
+            height: 130%;
+            width: 112%;
+            top: -15%;
+            left: -6%;
+            background-color: var(--color-bg-a);
+            z-index: -1000;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  100% { right: 0 };
+}
