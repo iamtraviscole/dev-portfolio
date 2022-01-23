@@ -13,21 +13,20 @@
 
   &__header {
     grid-area: header;
-    margin-bottom: 80px;
+    margin: 0 max(25px, 2.5%);
   }
 
   &__main {
     grid-area: content;
 
     &-ctr {
-      margin: 0 auto;
-      width: 90%;
+      margin: 0 max(25px, 5%);
       height: 100%;
     }
   }
 
   &__footer {
     grid-area: footer;
-    margin-top: 80px;
+    margin: 0 max(25px, 2.5%);
   }
 }
