@@ -24,7 +24,7 @@
   }
 
   &__links {
-    font-size: 14px;
+    font-size: 16px;
     display: inline-flex;
 
     &-link {
@@ -38,10 +38,8 @@
         color: var(--color-nav-a);
 
         > svg {
-          position: relative;
-          top: 1px;
-          display: inline-block;
-          height: 12px;
+          vertical-align: bottom;
+          height: 16px;
           padding-left: 5px;
           fill: var(--color-nav-a);
         }
@@ -73,7 +71,7 @@
       cursor: pointer;
 
       > svg {
-        height: 20px;
+        height: 36px;
         fill: var(--color-nav-a);
         display: block;
       }
@@ -89,10 +87,10 @@
         &:before {
           content: '';
           position: absolute;
-          height: 34px;
+          height: 38px;
           width: 44px;
-          top: -7px;
-          left: -7px;
+          top: -1px;
+          left: -4px;
           background-color: var(--color-bg-b);
           z-index: -1000;
         }
@@ -101,7 +99,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 660px) {
 
   .Nav {
 

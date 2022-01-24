@@ -41,8 +41,7 @@
         color: var(--color-nav-b);
 
         > svg {
-          position: relative;
-          top: 3px;
+          vertical-align: bottom;
           height: 24px;
           padding-left: 10px;
           fill: var(--color-nav-b);
