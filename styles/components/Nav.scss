@@ -9,10 +9,11 @@
     font-size: 24px;
 
     > a {
-
+      
       > svg {
-        height: 45px;
+        height: 40px;
         display: block;
+        fill: var(--color-nav-a);
       }
 
       &:hover {
@@ -24,7 +25,7 @@
   }
 
   &__links {
-    font-size: 16px;
+    font-size: 15px;
     display: inline-flex;
 
     &-link {
