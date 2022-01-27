@@ -1,7 +1,7 @@
 :root {
 
   // COLORS
-  --color-a: #7243f9;
+  --color-a: #5827ec;
   --color-a-tint: #b9a1fc;
   --color-a-shade: #39227d;
 
@@ -16,9 +16,6 @@
   --color-nav-a-hover: #fff;
   --color-nav-b: #fff;
   --color-nav-b-hover: #000;
-
-  --color-link-a: #237bec;
-  --color-link-a-hover: #91bdf6;
 
   --color-bg-a: #fff;
   --color-bg-b: #000;
@@ -93,11 +90,6 @@ html {
 
   a {
     text-decoration: none;
-    color: var(--color-link-a);
-
-    &:hover {
-      color: var(--color-link-a-hover);
-    }
   }
 
   button {
@@ -105,6 +97,7 @@ html {
     margin: 0;
     padding: 0;
     background: transparent;
+    font-family: inherit;
   }
 
 }
