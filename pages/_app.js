@@ -14,12 +14,16 @@ import '../styles/components/PageHeader.scss'
 import '../styles/components/Layout.scss'
 import '../styles/components/Footer.scss'
 
+import { ThemeContext } from '../context/ThemeContext'
+
 function MyApp({ Component, pageProps }) {
   return <>
     <Head>
       <meta name='viewport' content='width=device-width initial-scale=1' />
     </Head>
-    <Component {...pageProps} />
+    <ThemeContext>
+      <Component {...pageProps} />
+    </ThemeContext>
   </>
 }
 

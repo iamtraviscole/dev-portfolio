@@ -31,6 +31,32 @@
 
 }
 
+:root[data-theme="dark"] {
+
+  // COLORS
+  --color-a: #5827ec;
+
+  --color-heading-a: #fff;
+  --color-heading-b: #fff;
+
+  --color-text-a: #fff;
+  --color-text-a-tint: #9f9f9f;
+  --color-text-b: #000;
+
+  --color-nav-a: #fff;
+  --color-nav-a-hover: #000;
+  --color-nav-b: #000;
+  --color-nav-b-hover: #fff;
+
+  --color-bg-a: #000;
+  --color-bg-a: #1c1c1c;
+  --color-bg-b: #fff;
+
+  --color-border-a: #fff;
+  --color-border-a-tint: #ccc;
+  
+}
+
 * {
   box-sizing: border-box;
 }

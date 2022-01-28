@@ -1,5 +1,11 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
+const themeInitializerScript = `
+  (function () {
+    document.documentElement.setAttribute('data-theme', window.localStorage.getItem("theme") || "light")
+  })()
+`
+
 class MyDocument extends Document {
   render() {
     return (
@@ -13,6 +19,8 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
+          {/* blocks rest of app from rendering until themeInitializerScript is finished to prevent theme flicker */}
+          <script dangerouslySetInnerHTML={{ __html: themeInitializerScript }} />
           <Main />
           <NextScript />
         </body>
