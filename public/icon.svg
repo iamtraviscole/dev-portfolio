@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+	<style type="text/css">
+		.st0{fill:#000000;}
+		.st1{fill:#FFFFFF;}
+	</style>
+	<rect y="0" class="st0" width="256" height="256"/>
+	<g class="st1">
+		<polygon points="95,139 73,161 51,183 40,194 62,216 73,205 95,183 117,161 	"/>
+		<polygon points="73,95 95,117 117,95 95,73 73,51 62,40 40,62 51,73 	"/>
+		<rect x="46.4" y="112.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -72.3616 81.3251)" width="31.1" height="31.1"/>
+		<polygon points="161,117 183,95 205,73 216,62 194,40 183,51 161,73 139,95 	"/>
+		<rect x="112.4" y="46.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.3462 108.6568)" width="31.1" height="31.1"/>
+		<polygon points="183,161 161,139 139,161 161,183 183,205 194,216 216,194 205,183 	"/>
+		<rect x="112.4" y="178.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -99.684 147.318)" width="31.1" height="31.1"/>
+		<rect x="178.4" y="112.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -33.7005 174.6629)" width="31.1" height="31.1"/>
+	</g>
+</svg>

@@ -11,6 +11,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+          <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
           <link 
             // 'By default, Next.js will automatically inline font CSS at build time...'
             // https://nextjs.org/docs/basic-features/font-optimization
