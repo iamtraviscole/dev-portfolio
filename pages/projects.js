@@ -30,11 +30,11 @@ export default function Projects() {
               </div>
               <div className='Projects__project-details-links'>
                 <div className='Projects__project-details-links-link'>
-                  <Link href='http://weatherghost.com'><a target='_blank'><ExternalLinkIcon />View Live</a></Link>
+                  <Link href='http://weatherghost.com' target='_blank'><ExternalLinkIcon />View Live</Link>
                 </div>
                 <div className='Projects__project-details-links-link'>
                   {/* TODO: add github link */}
-                  <Link href='http://github.com'><a target='_blank'><GithubIcon />Github</a></Link>
+                  <Link href='http://github.com' target='_blank'><GithubIcon />Github</Link>
                 </div>
               </div>
               <div className='Projects__project-details-tech'>
@@ -56,5 +56,5 @@ export default function Projects() {
         </section>
       </div>
     </Layout>
-  )
+  );
 }

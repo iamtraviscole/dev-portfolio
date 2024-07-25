@@ -11,13 +11,13 @@ export default function Footer() {
       <div className='Footer__socials'>
         <ul>
           {/* TODO: add links */}
-          <li><Link href='http://github.com'><a target='_blank'><GithubIcon /></a></Link></li>
-          <li><Link href='http://twitter.com'><a target='_blank'><TwitterIcon /></a></Link></li>
+          <li><Link href='http://github.com' target='_blank'><GithubIcon /></Link></li>
+          <li><Link href='http://twitter.com' target='_blank'><TwitterIcon /></Link></li>
         </ul>
       </div>
       <div className='Footer__copyright'>
         <p>&copy; {year} Travis Cole</p>
       </div>
     </div>
-  )
+  );
 }

@@ -33,17 +33,17 @@ export default function Nav() {
     <nav className='Nav'>
       {showModal && <NavModal setShowModal={setShowModal} />}
       <div className='Nav__logo'>
-        <Link href='/'><a><Logo /></a></Link>
+        <Link href='/'><Logo /></Link>
       </div>
       <ul className='Nav__links'>
         <li className='Nav__links-link'>
-          <Link href='/skillset'><a>Skillset<SkillsetIcon /></a></Link>
+          <Link href='/skillset'>Skillset<SkillsetIcon /></Link>
         </li>
         <li className='Nav__links-link'>
-          <Link href='/projects'><a>Projects<FolderIcon /></a></Link>
+          <Link href='/projects'>Projects<FolderIcon /></Link>
         </li>
         <li className='Nav__links-link'>
-          <Link href='/about'><a>About<UserIcon /></a></Link>
+          <Link href='/about'>About<UserIcon /></Link>
         </li>
         <li className='Nav__links-theme'>
           {theme === 'light'
@@ -55,6 +55,6 @@ export default function Nav() {
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 

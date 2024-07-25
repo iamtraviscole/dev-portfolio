@@ -16,18 +16,18 @@ export default function NavModal({ setShowModal }) {
       </button>
       <ul className='NavModal__links'>
         <li className='NavModal__links-link' onClick={closeModal}>
-          <Link href='/'><a>Home<HomeIcon /></a></Link>
+          <Link href='/'>Home<HomeIcon /></Link>
         </li>
         <li className='NavModal__links-link' onClick={closeModal}>
-          <Link href='/skillset'><a>Skillset<SkillsetIcon /></a></Link>
+          <Link href='/skillset'>Skillset<SkillsetIcon /></Link>
         </li>
         <li className='NavModal__links-link' onClick={closeModal}>
-          <Link href='/projects'><a>Projects<FolderIcon /></a></Link>
+          <Link href='/projects'>Projects<FolderIcon /></Link>
         </li>
         <li className='NavModal__links-link' onClick={closeModal}>
-          <Link href='/about'><a>About<UserIcon /></a></Link>
+          <Link href='/about'>About<UserIcon /></Link>
         </li>
       </ul>
     </div>
-  )
+  );
 }
