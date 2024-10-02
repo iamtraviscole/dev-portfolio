@@ -17,7 +17,7 @@ class MyDocument extends Document {
           <link 
             // 'By default, Next.js will automatically inline font CSS at build time...'
             // https://nextjs.org/docs/basic-features/font-optimization
-            href='https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Poppins:wght@700&family=VT323'
+            href='https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Poppins:wght@700&family=VT323&display=optional'
             rel='stylesheet'
           />
         </Head>
