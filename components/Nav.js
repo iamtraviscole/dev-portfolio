@@ -33,17 +33,17 @@ export default function Nav() {
     <nav className='Nav'>
       {showModal && <NavModal setShowModal={setShowModal} />}
       <div className='Nav__logo'>
-        <Link href='/'><Logo /></Link>
+        <Link href='/' passHref><Logo /></Link>
       </div>
       <ul className='Nav__links'>
         <li className='Nav__links-link'>
-          <Link href='/skillset'>Skillset<SkillsetIcon /></Link>
+          <Link href='/skillset' passHref>Skillset<SkillsetIcon /></Link>
         </li>
         <li className='Nav__links-link'>
-          <Link href='/projects'>Projects<FolderIcon /></Link>
+          <Link href='/projects' passHref>Projects<FolderIcon /></Link>
         </li>
         <li className='Nav__links-link'>
-          <Link href='/about'>About<UserIcon /></Link>
+          <Link href='/about' passHref>About<UserIcon /></Link>
         </li>
         <li className='Nav__links-theme'>
           {theme === 'light'
