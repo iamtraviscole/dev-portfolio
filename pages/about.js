@@ -66,7 +66,7 @@ export default function About() {
               <li>Adobe Creative Suite</li>
             </ul>
           </section>
-          <section className='About__details-section'>
+          {/* <section className='About__details-section'>
             <div className='About__details-section-heading'>
               <div>[H-03]</div>
               <h2>Hobbies</h2>
@@ -90,7 +90,7 @@ export default function About() {
               <li>Music</li>
               <li>Movies</li>
             </ul>
-          </section>
+          </section> */}
         </div>
       </div>
     </Layout>
