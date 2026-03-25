@@ -29,8 +29,10 @@ export default function About() {
             </p>
           </div>
           <div className='About__bio-pic'>
-            <img>{ /*TODO: add picture */}</img>
-            <span>[Fig. 1]</span>
+            <div className='About__bio-pic-wrap'>
+              <img src="/images/devpic.jpg" />
+              <span>[Fig. 1]</span>
+            </div>
           </div>
         </div>
         <div className='About__details'>

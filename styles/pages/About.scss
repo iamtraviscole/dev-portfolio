@@ -26,21 +26,26 @@
 
     &-pic {
       padding: 25px;
-      position: relative;
 
-      > img {
+      &-wrap {
+        position: relative;
         display: inline-block;
-        width: 150px;
-        height: 200px;
-        background-color: #eee; 
-      }
+        border: 1px solid var(--color-border-a);
 
-      > span {
-        position: absolute;
-        top: 216px;
-        left: 16px;
-        font-size: 14px;
-        font-family: var(--font-b);
+        > img {
+          display: block;
+          width: auto;
+          height: 250px;
+        }
+
+        > span {
+          position: absolute;
+          bottom: -20px;
+          left: -15px;
+          font-size: 14px;
+          font-family: var(--font-b);
+          z-index: -1000;
+        }
       }
     }
   }
@@ -147,11 +152,7 @@
       }
   
       &-pic {
-  
-        > span {
-          top: 218px;
-          left: 136px;
-        }
+        text-align: center;
       }
     }
 
