@@ -17,18 +17,15 @@ export default function About() {
         <div className='About__bio'>
           <div className='About__bio-text'>
             <p>
-              I started experimenting with web design in the early 2000s when &lt;table&gt; based layouts were 
-              popular. I learned HTML, CSS, and Photoshop and managed to piece together some decent websites. 
-              But web technology was limited at the time and I found myself gravitating more towards the graphic 
-              side of the web design process, eventually becoming a graphic and logo designer.
+              I started experimenting with web design in the early 2000s during the &lt;table&gt; layout era. However, 
+              at the time, I found myself gravitating toward the design side of things, eventually becoming a graphic 
+              and logo designer - still building basic websites on the side for clients and for fun.
             </p>
             <p>
-              Nevertheless, I still kept up with web design and built a bunch 
-              of relatively simple websites for clients over the years. But, as web technology advanced, I always felt like 
-              I was only scratching the surface with these simple, mostly static websites. I wanted to be 
-              able to create complex, dynamic, interactive web apps — I wanted to be a developer. So I learned. I'm now well versed 
-              at all levels of the web development stack but focus primarily on the front end with my favorite technologies 
-              being Javascript, React, HTML and CSS / Sass.
+              But, as web technology and tools evolved, I found myself gravitating back to the development side of things. 
+              I increasingly wanted to be able to build more complex, dynamic web apps. So I learned and made the shift to full-stack development. 
+              These days I'm a full-time web developer working across the entire stack with a focus on front-end technologies like React, 
+              SvelteKit, and TypeScript.
             </p>
           </div>
           <div className='About__bio-pic'>
