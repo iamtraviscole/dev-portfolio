@@ -20,6 +20,7 @@ export default function Skillset() {
             <h3>Languages</h3>
             <ul>
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>Sass</li>
@@ -27,6 +28,7 @@ export default function Skillset() {
             <h3>Libraries & Frameworks</h3>
             <ul>
               <li>React</li>
+              <li>SvelteKit</li>
               <li>Redux</li>
               <li>Apollo Client</li>
               <li>Next.js</li>
@@ -35,6 +37,7 @@ export default function Skillset() {
               <li>Yup</li>
               <li>CSS Modules</li>
               <li>Styled Components</li>
+              <li>Tailwind CSS</li>
               <li>Axios</li>
             </ul>
           </section>
@@ -45,7 +48,8 @@ export default function Skillset() {
             </div>
             <h3>Languages</h3>
             <ul>
-              <li>JavaScript (Node.js)</li>
+              <li>Node.js</li>
+              <li>Python</li>
               <li>Ruby</li>
               <li>SQL</li>
             </ul>
@@ -54,6 +58,8 @@ export default function Skillset() {
               <li>Express</li>
               <li>Apollo GraphQL</li>
               <li>Knex</li>
+              <li>SQLAlchemy</li>
+              <li>Alembic</li>
               <li>Rails</li>
               <li>OmniAuth</li>
             </ul>
@@ -95,7 +101,12 @@ export default function Skillset() {
             <h3>Package Managers</h3>
             <ul>
               <li>npm</li>
+              <li>pnpm</li>
               <li>RubyGems</li>
+            </ul>
+            <h3>Search</h3>
+            <ul>
+              <li>Algolia</li>
             </ul>
           </section>
         </div>
