@@ -11,8 +11,7 @@ export default function Footer() {
       <div className='Footer__socials'>
         <ul>
           {/* TODO: add links */}
-          <li><Link href='http://github.com' target='_blank' passHref><GithubIcon /></Link></li>
-          <li><Link href='http://twitter.com' target='_blank' passHref><TwitterIcon /></Link></li>
+          <li><Link href='http://github.com/iamtraviscole' target='_blank' passHref><GithubIcon /></Link></li>
         </ul>
       </div>
       <div className='Footer__copyright'>
