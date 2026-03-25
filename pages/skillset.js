@@ -15,7 +15,7 @@ export default function Skillset() {
           <section className='Skillset__skills-section'>
             <div className='Skillset__skills-section-heading'>
               <div>[FE-01]</div>
-              <h2>Front End</h2>
+              <h2>Frontend</h2>
             </div>
             <h3>Languages</h3>
             <ul>
@@ -44,7 +44,7 @@ export default function Skillset() {
           <section className='Skillset__skills-section'>
             <div className='Skillset__skills-section-heading'>
               <div>[BE-02]</div>
-              <h2>Back End</h2>
+              <h2>Backend</h2>
             </div>
             <h3>Languages</h3>
             <ul>

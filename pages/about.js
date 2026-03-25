@@ -12,7 +12,7 @@ export default function About() {
       <PageHeader heading='About' icon={<UserIcon />} />
       <div className='About'>
         <div className='About__description'>
-          <h2>Front end focused full stack developer & designer</h2>
+          <h2>Frontend focused full-stack developer & designer</h2>
         </div>
         <div className='About__bio'>
           <div className='About__bio-text'>
@@ -58,13 +58,13 @@ export default function About() {
             </div>
             <h3>Current</h3>
             <div className='About__details-section-xp'>
-              <h4><span>Full Stack Web Developer (Contract)</span><span><strong>KPDI</strong></span><span className='About__details-section-xp-date'>[2024 - Present]</span></h4>
+              <h4><span>Web Developer (Contract)</span><span><strong>KPDI</strong></span><span className='About__details-section-xp-date'>[2024 - Present]</span></h4>
               <ul>
                 <li>Full-stack development on various client projects</li>
                 <li>Frontend development using SvelteKit, React, TypeScript, and Tailwind CSS</li>
                 <li>Backend API development using Python, FastAPI, SQLAlchemy, and PostgreSQL</li>
               </ul>
-              <h4><span>Freelance Web Development</span><span className='About__details-section-xp-date'>[2020 - Present]</span></h4>
+              <h4><span>Freelance Web Developer</span><span className='About__details-section-xp-date'>[2020 - Present]</span></h4>
               <ul>
                 <li>Frontend development using JavaScript, TypeScript, React, Next.js, Gatsby, and more</li>
                 <li>Backend development using Node.js, Ruby, Rails, PostgreSQL and more</li>
@@ -75,13 +75,13 @@ export default function About() {
             </div>
             <h3>Previous</h3>
             <div className='About__details-section-xp'>
-              <h4><span>Full Stack Web Developer (Contract)</span><span><strong>Equiptron</strong></span><span className='About__details-section-xp-date'>[2020 - 2021]</span></h4>
+              <h4><span>Web Developer (Contract)</span><span><strong>Equiptron</strong></span><span className='About__details-section-xp-date'>[2020 - 2021]</span></h4>
               <ul>
-                <li>Full stack development on custom CRM application</li>
+                <li>Full-stack development on custom CRM application</li>
                 <li>Frontend development using React and Apollo Client</li>
                 <li>Backend development using Node.js, Express, GraphQL, Knex, and PostgreSQL</li>
               </ul>
-              <h4><span>Freelance Graphic, Web, & Identity Design</span><span className='About__details-section-xp-date'>[2010 - 2020]</span></h4>
+              <h4><span>Freelance Graphic, Web, & Identity Designer</span><span className='About__details-section-xp-date'>[2010 - 2020]</span></h4>
               <ul>
                 <li>Digital and print design including logos, websites, marketing materials, packaging, and more</li>
                 <li>Long-term client relationships spanning 5+ years</li>

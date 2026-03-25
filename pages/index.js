@@ -22,7 +22,7 @@ export default function Index() {
           <h1>
             <span className='Index__intro-highlight'>
               <span className='Index__intro-highlight-accent'>[35.7596&deg;]</span>
-              Front end</span> focused full stack developer & designer
+              Frontend</span> focused full-stack developer & designer
           </h1>
         </div>
         <div className='Index__skills'>
