@@ -101,16 +101,27 @@
       }
 
       &-xp {
-         margin-bottom: 50px;
+        margin-bottom: 50px;
 
         &:last-child {
           margin-bottom: 0;
         }
 
         > h4 {
+          display: flex;
+          gap: 10px;
           font-size: 16px;
           font-weight: normal;
-          margin-bottom: 10px;
+          margin-bottom: 5px;
+
+          > span {
+            &:first-child {
+              &::after {
+                content: ' - ';
+              }
+            }
+          }
+          
         }
 
         > ul {
@@ -118,12 +129,14 @@
 
           > li {
             line-height: 1.5;
-            margin-left: 6px;
-            font-size: 14px;
+            font-size: 12px;
 
             &::before {
-              content: '▸';
+              content: '▪';
+              font-size: 8px;
+              color: var(--color-a);
               margin-right: 6px;
+              vertical-align: 2px;
             }
           }
           
@@ -160,6 +173,26 @@
 
       &-section {
         padding: 25px;
+
+        &-xp {
+
+          > h4 {
+            flex-direction: column;
+            gap: 5px;
+
+            > span {
+              &:first-child {
+                &::after {
+                  content: '';
+                }
+              }
+            }
+          }
+
+        &-date {
+          font-size: 12px;
+        }
+        }
       }
     }
 
