@@ -51,14 +51,52 @@ export default function About() {
           </section>
           <section className='About__details-section'>
             <div className='About__details-section-heading'>
-              <div>[T-02]</div>
+              <div>[X-02]</div>
+              <h2>Experience</h2>
+            </div>
+            <h3>Current</h3>
+            <div className='About__details-section-xp'>
+              <h4>Full Stack Web Developer (Contract) - <strong>KPDI</strong> <span className='About__details-section-xp-date'>[2024 - Present]</span></h4>
+              <ul>
+                <li>Full-stack development on various client projects</li>
+                <li>Frontend development using SvelteKit, React, TypeScript, and Tailwind CSS</li>
+                <li>Backend API development using Python, FastAPI, SQLAlchemy, and PostgreSQL</li>
+              </ul>
+              <h4>Freelance Web Development <span className='About__details-section-xp-date'>[2020 - Present]</span></h4>
+              <ul>
+                <li>Frontend development using JavaScript, TypeScript, React, Next.js, Gatsby, and more</li>
+                <li>Backend development using Node.js, Ruby, Rails, PostgreSQL and more</li>
+                <li>E-commerce integration with Stripe, Shopify, and BigCartel</li>
+                <li>Content management integration with WordPress and various headless CMSs</li>
+                <li>Auth integration using Firebase Authentication</li>
+              </ul>
+            </div>
+            <h3>Previous</h3>
+            <div className='About__details-section-xp'>
+              <h4>Full Stack Web Developer (Contract) - <strong>Equiptron</strong> <span className='About__details-section-xp-date'>[2020 - 2021]</span></h4>
+              <ul>
+                <li>Full stack development on custom CRM application</li>
+                <li>Frontend development using React and Apollo Client</li>
+                <li>Backend development using Node.js, Express, GraphQL, Knex, and PostgreSQL</li>
+              </ul>
+              <h4>Freelance Graphic, Web, & Identity Design <span className='About__details-section-xp-date'>[2010 - 2020]</span></h4>
+              <ul>
+                <li>Digital and print design including logos, websites, marketing materials, packaging, and more</li>
+                <li>Long-term client relationships spanning 5+ years</li>
+              </ul>
+            </div>
+          </section>
+          <section className='About__details-section'>
+            <div className='About__details-section-heading'>
+              <div>[T-03]</div>
               <h2>Tools</h2>
             </div>
             <h3>Software</h3>
             <ul>
               <li>Visual Studio Code</li>
               <li>Terminal</li>
-              <li>GitHub Desktop</li>
+              <li>Postman</li>
+              <li>TablePlus</li>
               <li>Figma</li>
               <li>Adobe Creative Suite</li>
             </ul>
