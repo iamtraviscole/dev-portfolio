@@ -103,31 +103,6 @@ export default function About() {
               <li>Adobe Creative Suite</li>
             </ul>
           </section>
-          {/* <section className='About__details-section'>
-            <div className='About__details-section-heading'>
-              <div>[H-03]</div>
-              <h2>Hobbies</h2>
-            </div>
-            <h3>Sports</h3>
-            <ul>
-              <li>Hockey</li>
-            </ul>
-            <h3>Games</h3>
-            <ul>
-              <li>Valorant</li>
-              <li>CS:GO</li>
-              <li>Overwatch</li>
-              <li>League of Legends</li>
-            </ul>
-            <h3>Other</h3>
-            <ul>
-              <li>Biking</li>
-              <li>Hiking</li>
-              <li>Fitness</li>
-              <li>Music</li>
-              <li>Movies</li>
-            </ul>
-          </section> */}
         </div>
       </div>
     </Layout>

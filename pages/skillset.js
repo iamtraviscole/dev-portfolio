@@ -83,7 +83,7 @@ export default function Skillset() {
             <h3>Tools</h3>
             <ul>
               <li>Figma</li>
-              <li>Adobe Xd</li>
+              <li>Adobe XD</li>
               <li>Adobe Photoshop</li>
               <li>Adobe Illustrator</li>
             </ul>
@@ -96,7 +96,7 @@ export default function Skillset() {
             <h3>Version Control</h3>
             <ul>
               <li>Git</li>
-              <li>Github</li>
+              <li>GitHub</li>
             </ul>
             <h3>Package Managers</h3>
             <ul>

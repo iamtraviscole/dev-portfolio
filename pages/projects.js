@@ -33,7 +33,7 @@ export default function Projects() {
                   <Link href='http://weatherghost.com' target='_blank' passHref><ExternalLinkIcon />View Live</Link>
                 </div>
                 <div className='Projects__project-details-links-link'>
-                  <Link href='https://github.com/iamtraviscole/weatherghost' target='_blank' passHref><GithubIcon />Github</Link>
+                  <Link href='https://github.com/iamtraviscole/weatherghost' target='_blank' passHref><GithubIcon />GitHub</Link>
                 </div>
               </div>
               <div className='Projects__project-details-tech'>
