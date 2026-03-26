@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 import NavModal from './NavModal'
 
@@ -16,6 +17,7 @@ import { useThemeContext } from '../context/ThemeContext'
 export default function Nav() {
   const [showModal, setShowModal] = useState(false)
   const { theme, setTheme } = useThemeContext()
+  const router = useRouter()
 
   useEffect(() => {
     showModal 
@@ -36,13 +38,13 @@ export default function Nav() {
         <Link href='/' passHref><Logo /></Link>
       </div>
       <ul className='Nav__links'>
-        <li className='Nav__links-link'>
+        <li className={`Nav__links-link ${router.pathname === '/skillset' ? 'Nav__links-link--active' : ''}`}>
           <Link href='/skillset' passHref>Skillset<SkillsetIcon /></Link>
         </li>
-        <li className='Nav__links-link'>
+        <li className={`Nav__links-link ${router.pathname === '/projects' ? 'Nav__links-link--active' : ''}`}>
           <Link href='/projects' passHref>Projects<FolderIcon /></Link>
         </li>
-        <li className='Nav__links-link'>
+        <li className={`Nav__links-link ${router.pathname === '/about' ? 'Nav__links-link--active' : ''}`}>
           <Link href='/about' passHref>About<UserIcon /></Link>
         </li>
         <li className='Nav__links-theme'>

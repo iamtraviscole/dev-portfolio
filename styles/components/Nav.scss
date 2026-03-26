@@ -66,6 +66,26 @@
           }
         }
       }
+
+      &--active > a {
+        position: relative;
+        color: var(--color-nav-a-hover);
+
+        > svg {
+          fill: var(--color-nav-a-hover);
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          height: 130%;
+          width: 112%;
+          top: -15%;
+          left: -6%;
+          background-color: var(--color-bg-b);
+          z-index: -1000;
+        }
+      }
     }
 
     &-burger {
