@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 
-import JavaScriptIcon from '../public/icons/javascript.svg'
+import TypeScriptIcon from '../public/icons/typescript.svg'
 import ReactIcon from '../public/icons/react.svg'
 import HTML5Icon from '../public/icons/html5.svg'
 import CSS3Icon from '../public/icons/css3.svg'
@@ -27,7 +27,7 @@ export default function Index() {
         </div>
         <div className='Index__skills'>
           <ul>
-            <li><JavaScriptIcon />JavaScript</li>
+            <li><TypeScriptIcon />TypeScript</li>
             <li><ReactIcon />React</li>
             <li><HTML5Icon />HTML</li>
             <li><CSS3Icon />CSS</li>
