@@ -93,6 +93,12 @@ export default function Skillset() {
               <div>[O-04]</div>
               <h2>Other</h2>
             </div>
+            <h3>AI</h3>                                                                                                                                                                                    
+            <ul>                                                                           
+              <li>Prompt Engineering</li>
+              <li>Structured Output Parsing</li>                                           
+              <li>Batch Processing</li>                                                  
+            </ul>
             <h3>Version Control</h3>
             <ul>
               <li>Git</li>

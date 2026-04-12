@@ -63,6 +63,7 @@ export default function About() {
                 <li>Full-stack development on various client projects</li>
                 <li>Frontend development using SvelteKit, React, TypeScript, and Tailwind CSS</li>
                 <li>Backend API development using Python, FastAPI, SQLAlchemy, and PostgreSQL</li>
+                <li>AI prompt engineering, batch processing, and structured output parsing</li>
               </ul>
               <h4><span>Freelance Web Developer</span><span className='About__details-section-xp-date'>[2020 - Present]</span></h4>
               <ul>
