@@ -95,9 +95,9 @@ export default function Skillset() {
             </div>
             <h3>AI</h3>                                                                                                                                                                                    
             <ul>                                                                           
-              <li>Prompt Engineering</li>
-              <li>Structured Output Parsing</li>                                           
-              <li>Batch Processing</li>                                                  
+              <li>Prompt engineering</li>
+              <li>Structured output parsing</li>                                           
+              <li>Batch processing</li>                                                  
             </ul>
             <h3>Version Control</h3>
             <ul>
