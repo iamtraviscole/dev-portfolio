@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
 
@@ -30,7 +32,13 @@ export default function About() {
           </div>
           <div className='About__bio-pic'>
             <div className='About__bio-pic-wrap'>
-              <img src="/images/devpic.jpg" />
+              <Image
+                src='/images/devpic.jpg'
+                alt='Travis'
+                width={525}
+                height={650}
+                priority
+              />
               <span>[Fig. 1]</span>
             </div>
           </div>
